@@ -1,4 +1,4 @@
-# reddit-stats
+# reddit-statistics-scripts
 Collection of scripts that count basic stats from Reddit threads and subs.
 
 ## Preparation / Requirements
