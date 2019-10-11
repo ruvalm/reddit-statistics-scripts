@@ -15,6 +15,6 @@ submission.comments.replace_more(limit=None)
 for comment in submission.comments.list():
     uniques.add(comment.author)
 
-print 'Daily has ' + str(submission.score) + ' upvotes.'
-print 'Daily has ' + str(submission.num_comments) + ' comments.'
-print 'Daily had ' + str(len(uniques)) + ' unique participants.'
+print 'Thread has ' + str(submission.score) + ' upvotes.'
+print 'Thread has ' + str(submission.num_comments) + ' comments.'
+print 'Thread had ' + str(len(uniques)) + ' unique participants.'
