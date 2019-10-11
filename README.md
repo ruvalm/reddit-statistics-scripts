@@ -29,7 +29,7 @@ Counts number of users that participated in 2 distinct Reddit Threads:
 `python count_unique_overlap.py <thread_url_1> <thread_url_2>`
 
 
-## Real examples
+## Examples
 
 ### count_from_thread.py
 
