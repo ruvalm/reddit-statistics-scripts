@@ -28,6 +28,12 @@ Counts number of users that participated in 2 distinct Reddit Threads:
 
 `python count_unique_overlap.py <thread_url_1> <thread_url_2>`
 
+### count_all_sub_statistics.py
+
+Counts a sub's number of posts, comments, upvotes and unique participants (up to the latest 1000 threads).
+
+`python count_all_sub_statistics.py <sub_reddit_name>`
+
 
 ## Examples
 
@@ -41,4 +47,10 @@ python count_from_thread.py https://www.reddit.com/r/ethfinance/comments/dftses/
 
 ```bash
 python count_unique_overlap.py https://www.reddit.com/r/ethfinance/comments/dgaxra/daily_general_discussion_october_11_2019/ https://www.reddit.com/r/ethfinance/comments/dd7caw/devcon_v_megathread_is_live/
+```
+
+### count_all_sub_statistics.py
+
+```bash
+python count_all_sub_statistics.py ethfinance
 ```
